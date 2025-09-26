@@ -10,8 +10,8 @@ Part 2 includes CSS styling, responsive design, and corrections from Part 1. The
 ## Corrections and Updates from Part 1
 
 1. **HTML Pages**
-- Filled all pages: `about.html`, `services.html`, `enquiry.html`, `contact.html`
-- Corrected navigation links to ensure all pages are accessible
+- 2025/09/26: Filled all pages: `about.html`, `services.html`, `enquiry.html`, `contact.html`
+- 2025/09/26: Corrected navigation links to ensure all pages are accessible
 - Added content sections to each page
 
 2. **Content and Research**
@@ -26,14 +26,14 @@ Part 2 includes CSS styling, responsive design, and corrections from Part 1. The
 - Technical requirements and references included
 - Timeline for Part 1 was already clarified
 
-3. **CSS Styling**
+3. **2025/09/26: CSS Styling**
 - Created external `style.css` and linked to all HTML pages
 - Set base styles for fonts, colors, spacing, and layout
 - Applied typography styles for headings, paragraphs, and lists
 - Styled images, buttons, links, and sections
 - Used hover and active effects for interactive elements
 
-4. **Responsive Design**
+4. **2025/09/26: Responsive Design**
 - Added media queries for Desktop, Tablet, and Mobile
 - Multi-column layout on large screens, single column on smaller screens
 - Images and content scale properly on all screen sizes
