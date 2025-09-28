@@ -1,5 +1,12 @@
 # Future Forward SA Website – Part 2
 
+**Changelog**
+**2025/09/26**
+*Fixed the navigation.
+*Updated navigation theme.
+*Filled in content for other pages.
+*Linked external CSS to all webpagesfor consistent styling.
+
 ## Overview
 This is the website for **Future Forward SA**, a non-profit organization empowering young South Africans with skills, confidence, and career opportunities.
 
@@ -55,10 +62,15 @@ Part 2 includes CSS styling, responsive design, and corrections from Part 1. The
 ## Folder Structure
 Future ForwardSA/
 ----index.html 
+
 ----about.html
+
 ----services.html
+
 ----enquiry.html
+
 ----contact.html
+
 css/
 -----style.css
 readme.md/
