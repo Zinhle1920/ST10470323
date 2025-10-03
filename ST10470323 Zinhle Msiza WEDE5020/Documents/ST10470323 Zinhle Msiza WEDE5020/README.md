@@ -1,6 +1,6 @@
 # Future Forward SA Website – Part 2
 
-**Changelog**
+**Changelog Update**
 **2025/09/26**
 -**index.html** : Added homepage with navigation bar and links to all pages for easy access
 
