@@ -4,7 +4,6 @@
 **2025/09/26**
 -**index.html** : Added homepage with navigation bar and links to all pages for easy access
 
-
 -**about.html** : Created about page with project deatials 
 
 -**contact.html** : Built Contact page including form for user message and stlyed contact information
