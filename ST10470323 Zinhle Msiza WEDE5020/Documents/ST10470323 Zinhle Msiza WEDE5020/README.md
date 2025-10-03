@@ -64,6 +64,10 @@ Part 2 includes CSS styling, responsive design, and corrections from Part 1. The
 - Career Readiness: Scott Graham, Unsplash.com
 - Organization info: Future Forward SA Proposal Document
 
+  7. **Technical Requirements**
+     -Visual Studio Code
+     GitHub
+
 ---
 
 ## Folder Structure
