@@ -3,6 +3,7 @@
 **Changelog**
 **2025/09/26**
 -**index.html** : Added homepage with navigation bar and links to all pages for easy access
+-**about.html** : Created about page with project deatials 
 
 ## Overview
 This is the website for **Future Forward SA**, a non-profit organization empowering young South Africans with skills, confidence, and career opportunities.
