@@ -11,6 +11,8 @@
 
 -**enquiry.html** : Developed Enquiry page with functional form validation for user submissions
 
+-**services.html** : Added Service page with list and descriptions offerings
+
 ## Overview
 This is the website for **Future Forward SA**, a non-profit organization empowering young South Africans with skills, confidence, and career opportunities.
 
