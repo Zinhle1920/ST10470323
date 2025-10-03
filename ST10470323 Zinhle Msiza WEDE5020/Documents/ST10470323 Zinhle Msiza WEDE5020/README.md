@@ -9,6 +9,8 @@
 
 -**contact.html** : Built Contact page including form for user message and stlyed contact information
 
+-**enquiry.html** : Developed Enquiry page with functional form validation for user submissions
+
 ## Overview
 This is the website for **Future Forward SA**, a non-profit organization empowering young South Africans with skills, confidence, and career opportunities.
 
