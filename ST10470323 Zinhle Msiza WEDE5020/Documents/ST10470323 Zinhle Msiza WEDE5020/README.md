@@ -13,6 +13,8 @@
 
 -**services.html** : Added Service page with list and descriptions offerings
 
+-**style.css** : Applied consistent design (fonts, colors, layout), styled navigation bar, headers and forms for all pages
+
 ## Overview
 This is the website for **Future Forward SA**, a non-profit organization empowering young South Africans with skills, confidence, and career opportunities.
 
