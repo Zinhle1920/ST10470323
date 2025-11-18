@@ -1,6 +1,6 @@
 # Future Forward SA Website 
 ##Overview 
-Part three of the website now contains a JvaScript file linked to all webpages.
+Part 3 of the website now contains a JavaScript file linked to all webpages.
 
 ## Overview
 This is the website for **Future Forward SA**, a non-profit organization empowering young South Africans with skills, confidence, and career opportunities.
@@ -70,3 +70,4 @@ readme.md/
 - The website is fully responsive across devices.
 
 - This README highlights all corrections made from Part 1 to Part 2.
+
