@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Enquire - Future Forward SA</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        /* Add a little inline style just for form layout */
+        form {
+            max-width: 500px;
+            margin: 2rem auto;
+            background: white;
+            padding: 2rem;
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+        }
+
+        label {
+            font-weight: 600;
+        }
+
+        input, textarea {
+            width: 100%;
+            padding: 0.8rem;
+            margin-top: 0.5rem;
+            border: 1px solid #ccc;
+            border-radius: 6px;
+            font-family: inherit;
+            font-size: 1rem;
+        }
+
+        button {
+            background: var(--accent);
+            border: none;
+            padding: 0.8rem 1.5rem;
+            color: var(--dark);
+            font-weight: 600;
+            border-radius: 30px;
+            cursor: pointer;
+            transition: 0.3s;
+            display: block;
+            margin: 1rem auto 0;
+        }
+
+        button:hover {
+            background: var(--secondary);
+            transform: scale(1.05);
+        }
+
+        .thank-you {
+            display: none;
+            text-align: center;
+            font-size: 1.2rem;
+            color: green;
+            margin-top: 2rem;
+            font-weight: 600;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- HEADER -->
+    <header>
+        <h1>Future Forward SA</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="services.html">Programs</a></li>
+                <li><a href="enquiry.html" class="active">Enquire</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- ENQUIRY FORM -->
+    <section>
+        <h2>Enquire</h2>
+        <p style="text-align:center;">Fill out the form below and we will get back to you as soon as possible.</p>
+
+        <form id="enquiryForm">
+            <label for="name">Full Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="subject">Subject:</label>
+            <input type="text" id="subject" name="subject" required>
+
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="5" required></textarea>
+
+            <button type="submit">Submit</button>
+        </form>
+
+        <div class="thank-you" id="thankYouMessage">
+            Thank you for your application, we'll get back to you soon!
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer>
+        <p>© 2025 Future Forward SA | Email: info@futureforwardsa.org.za | Phone: +27 11 234 5678</p>
+    </footer>
+
+    <!-- JAVASCRIPT TO SHOW MESSAGE -->
+    <script>
+        document.getElementById('enquiryForm').addEventListener('submit', function(event) {
+            event.preventDefault(); // Stop actual submission
+            this.style.display = 'none'; // Hide the form
+            document.getElementById('thankYouMessage').style.display = 'block'; // Show thank-you message
+        });
+    </script>
+<script src="script.js" defer></script>
+</body>
+</html>
