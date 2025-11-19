@@ -2,31 +2,47 @@
 ## Overview for part 3
 Part 3
 1. Added Interactive Elements
-
 I added JavaScript animations such as a typing effect on the homepage and simple fade-in effects when sections appear. This makes the website feel more modern and interactive for users.
 
 2. Added Form Validation
-
 Both the Enquiry Form and Contact Form now have JavaScript validation.
 The script checks that all fields are completed correctly (name, email, subject, and message).
 If the form is valid, it displays a custom message:
 “Thank you for your application, we’ll get back to you…”
 
 3. Added Interactive Map Controls
-
 On the contact page, I added JavaScript buttons to zoom in and out of the embedded Google Map.
 This improves user control and makes the map more interactive.
 
 4. Added Dynamic Search Filter
-
 On the Programs page, a JavaScript search bar was added.
 As the user types, programs are automatically filtered and hidden/shown based on matching text.
 
 5. Added Lightbox Gallery
-
 For any images added to the website, clicking the image now opens a larger pop-up (lightbox).
 This makes image viewing clearer and more professional.
 Part 3 of the website now contains a JavaScript file linked to all webpages.
+
+## Update from Part 2
+Consistency of Styling
+Colours are used consistently across all pages.
+The visual theme matches the purpose of the website.
+
+Navigation Styling 
+Menu is styled properly.
+Hover effects could be more engaging.
+
+Typography
+Font sizes are readable.
+Headings could be more distinctive and styled.
+Layout & Spacing 
+Content is separated clearly using padding/margins.
+Some areas need more spacing for readability.
+Use of Imagery (Needs Improvement)
+More images needed to improve visual engagement.
+Images should be aligned consistently.
+Responsiveness (✓ Good / Needs Work)
+Pages adapt but could use more advanced media queries.
 
 ## Overview for Part 2
 This is the website for **Future Forward SA**, a non-profit organization empowering young South Africans with skills, confidence, and career opportunities.
@@ -96,5 +112,6 @@ readme.md/
 - The website is fully responsive across devices.
 
 - This README highlights all corrections made from Part 1 to Part 2.
+
 
 
