@@ -1,0 +1,143 @@
+/* --- General Reset & Typography --- */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f9fafb;
+}
+
+h1, h2, h3 {
+    color: #0b7285;
+}
+
+/* --- Header --- */
+.main-header {
+    background-color: #0b7285;
+    padding: 1rem 0;
+    color: white;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+.main-header .container {
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    font-weight: 700;
+    font-size: 1.5rem;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 1.5rem;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    font-weight: 500;
+    transition: color 0.3s;
+}
+
+nav a:hover,
+nav a.active {
+    color: #ffd43b;
+}
+
+/* --- Hero Section --- */
+.hero {
+    background: linear-gradient(rgba(11,114,133,0.7), rgba(11,114,133,0.7)), 
+                url('https://images.unsplash.com/photo-1522202176988-66273c2fd55f?auto=format&fit=crop&w=1350&q=80') center/cover;
+    color: white;
+    text-align: center;
+    padding: 6rem 1rem;
+}
+
+.hero h2 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+
+.hero p {
+    font-size: 1.2rem;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+/* --- Content Sections --- */
+.container {
+    width: 85%;
+    margin: 3rem auto;
+}
+
+.about p {
+    font-size: 1.1rem;
+    margin-top: 1rem;
+}
+
+/* --- Info Grid --- */
+.info-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 2rem;
+}
+
+.info-card {
+    background: white;
+    padding: 2rem;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.05);
+    transition: transform 0.3s;
+}
+
+.info-card:hover {
+    transform: translateY(-5px);
+}
+
+.info-card h3 {
+    color: #0b7285;
+    margin-bottom: 1rem;
+}
+
+.info-card ul {
+    list-style: disc;
+    padding-left: 1.5rem;
+}
+
+/* --- Team Section --- */
+.team {
+    text-align: center;
+}
+
+.team p {
+    max-width: 700px;
+    margin: 1rem auto;
+}
+
+/* --- Footer --- */
+footer {
+    background-color: #0b7285;
+    color: white;
+    text-align: center;
+    padding: 2rem 1rem;
+}
+
+footer a {
+    color: #ffd43b;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
